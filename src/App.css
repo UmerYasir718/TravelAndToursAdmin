@@ -32,7 +32,273 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.bodySetting {
+  top: 150px;
+  position: relative;
+}
+
+/* -------------------------------------------------Sidebar------------------------------------------------------------ */
+
+.logo {
+  /* height: 100px;
+  width: 300px; */
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+/* .navbar-nav {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  margin: auto;
+  color: white;
+}
+
+
+.logo {
+  height: 40px;
+}
+
+.nav-link {
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+} */
+
+
+/* .nav-link:hover {
+  color: black;
+  border-radius: 5px;
+  font-weight: bolder;
+}
+
+.dropdown-menu .nav-link {
+  color: black;
+  font-weight: bold;
+}
+
+.dropdown:hover {
+  color: black;
+}
+
+.navbar-nav .nav-link.show {
+  color: black;
+}
+
+.active {
+  color: white;
+  font-weight: bold;
+  background-color: red;
+}
+
+.dropdown-menu .nav-link.active {
+  color: white;
+  font-weight: bold;
+  background-color: red;
+}*/
+
+/* .navbar-nav .nav-link.active {
+  color: white;
+}
+
+li .active {
+  background-color: red;
+  border-radius: 5px;
+  color: white;
+  padding: 5px;
+} */
+
+/* -------------------------------------------------Cards------------------------------------------------------------ */
+
+.card {
+  background-color: #fff;
+  border-radius: 10px;
+  border: none;
+  position: relative;
+  margin-bottom: 30px;
+  box-shadow: 0 0.46875rem 2.1875rem rgba(90, 97, 105, 0.1), 0 0.9375rem 1.40625rem rgba(90, 97, 105, 0.1), 0 0.25rem 0.53125rem rgba(90, 97, 105, 0.12), 0 0.125rem 0.1875rem rgba(90, 97, 105, 0.1);
+}
+
+.l-bg-cherry {
+  background: linear-gradient(to right, #493240, #f09) !important;
+  color: #fff;
+}
+
+.l-bg-blue-dark {
+  background: linear-gradient(to right, #373b44, #4286f4) !important;
+  color: #fff;
+}
+
+.l-bg-green-dark {
+  background: linear-gradient(to right, #0a504a, #38ef7d) !important;
+  color: #fff;
+}
+
+.l-bg-orange-dark {
+  background: linear-gradient(to right, #a86008, #ffba56) !important;
+  color: #fff;
+}
+
+.card .card-statistic-3 .card-icon-large .fas, .card .card-statistic-3 .card-icon-large .far, .card .card-statistic-3 .card-icon-large .fab, .card .card-statistic-3 .card-icon-large .fal {
+  font-size: 110px;
+}
+
+.card .card-statistic-3 .card-icon {
+  text-align: center;
+  line-height: 50px;
+  margin-left: 15px;
+  color: #000;
+  position: absolute;
+  right: -5px;
+  top: 20px;
+  opacity: 0.1;
+}
+
+.l-bg-cyan {
+  background: linear-gradient(135deg, #289cf5, #84c0ec) !important;
+  color: #fff;
+}
+
+.l-bg-green {
+  background: linear-gradient(135deg, #23bdb8 0%, #43e794 100%) !important;
+  color: #fff;
+}
+
+.l-bg-orange {
+  background: linear-gradient(to right, #f9900e, #ffba56) !important;
+  color: #fff;
+}
+
+.l-bg-cyan {
+  background: linear-gradient(135deg, #289cf5, #84c0ec) !important;
+  color: #fff;
+}
+
+/* -------------------------------------------------HomePage------------------------------------------------------------ */
+/* .CountryNames {
+  background-color: rgb(0, 0, 0, 0.8);
+  color: white;
+  list-style: none;
+  width: 100%;
+}
+
+.CountryNum {
+  background-color: rgba(128, 128, 128, 0.5);
+  color: white;
+  width: 5%;
+  font-size: 18px;
+  font-weight: bold;
+
+}
+
+.CountryName {
+  background-color: rgb(133, 133, 133, 0.7);
+  color: white;
+  font-size: 20px;
+  font-weight: bolder;
+  width: 60%;
+}
+
+.CountryPrice {
+  background-color: rgba(128, 128, 128, 0.5);
+  color: white;
+  width: 40%;
+  font-size: 18px;
+  font-weight: bold;
+} */
+
+.CountryForm {
+  border: 2px solid black;
+  border-radius: 10px;
+  color: black;
+  padding: 15px;
+  font-weight: bolder;
+}
+
+.CountryForm button {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: auto;
+  width: 20vw;
+}
+
+.RouteForm {
+  border: 2px solid black;
+  border-radius: 10px;
+  color: black;
+  padding: 15px;
+  font-weight: bolder;
+}
+
+.RouteForm button {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: auto;
+  width: 20vw;
+}
+
+/* .tableSetting {
+  background-color: rgb(0, 0, 0, 0.8);
+  color: white;
+  list-style: none;
+  width: 100%;
+}
+
+.tableEntries {
+  background-color: rgba(128, 128, 128, 0.5);
+  color: white;
+  width: 25vw;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.tableEntriesBtn {
+  background-color: rgba(128, 128, 128, 0.5);
+  color: white;
+  width: 20vw;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.tableEntriesNum {
+  background-color: rgba(128, 128, 128, 0.5);
+  color: white;
+  width: 5%;
+  font-size: 18px;
+  font-weight: bold;
+} */
+
+.adminForm {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  border: 2px solid white;
+  color: white;
+  background-color: rgb(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+  min-width: 50vw;
+  max-width: 50vw;
+  height: 40vh;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  padding: 20px;
+  /* position: relative; */
+  margin-top: 150px;
+  /* margin-bottom: 0px; */
 }
