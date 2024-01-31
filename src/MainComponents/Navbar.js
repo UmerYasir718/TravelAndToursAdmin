@@ -2,6 +2,7 @@ import React from "react";
 import { useCookies } from "react-cookie";
 import { Link, useNavigate } from "react-router-dom";
 export default function Navbar() {
+  // eslint-disable-next-line no-unused-vars
   const [cookies, setCookie, removeCookie] = useCookies(["token"]);
   const navigate = useNavigate();
   const handleSignOut = () => {
